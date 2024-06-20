@@ -10,10 +10,13 @@ public class Main {
 
         int numero1 = Integer.parseInt(primernumero);
         int numero2 = Integer.parseInt(segundonumero);
+        int suma = numero1 + numero2;
         int multiplica = numero1 * numero2;
 
         //Muestra de resultados en un dialogo
-        JOptionPane.showMessageDialog(null, "La smultiplicacion es: " + multiplica, "Suma de dos enteros", JOptionPane.PLAIN_MESSAGE );
+        JOptionPane.showMessageDialog(null, "La suma es: " + suma, "Suma de dos enteros", JOptionPane.PLAIN_MESSAGE );
+        JOptionPane.showMessageDialog(null, "La multiplicacion es: " + multiplica, "Suma de dos enteros", JOptionPane.PLAIN_MESSAGE );
+
     }
 }
 // + - * /
