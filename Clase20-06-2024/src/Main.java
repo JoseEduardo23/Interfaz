@@ -7,16 +7,18 @@ public class Main {
         String segundonumero = JOptionPane.showInputDialog("Introduzca el segundo numero: ");
 
         //Convierte entradas String en valores int
-
-        int numero1 = Integer.parseInt(primernumero);
-        int numero2 = Integer.parseInt(segundonumero);
-        int suma = numero1 + numero2;
-        int multiplica = numero1 * numero2;
+            double numero1 = Double.parseDouble(primernumero);
+            double numero2 = Double.parseDouble(segundonumero);
+            double suma = numero1 + numero2;
+            double resta = numero1 - numero2;
+            double multiplica = numero1 * numero2;
+            double divisor = numero1 / numero2;
 
         //Muestra de resultados en un dialogo
         JOptionPane.showMessageDialog(null, "La suma es: " + suma, "Suma de dos enteros", JOptionPane.PLAIN_MESSAGE );
-        JOptionPane.showMessageDialog(null, "La multiplicacion es: " + multiplica, "Suma de dos enteros", JOptionPane.PLAIN_MESSAGE );
-
+        JOptionPane.showMessageDialog(null, "La multiplicacion es: " + multiplica, "Multiplicacion de dos enteros", JOptionPane.PLAIN_MESSAGE );
+        JOptionPane.showMessageDialog(null, "la resta es: " + resta, "Resta de dos enteros", JOptionPane.PLAIN_MESSAGE );
+        JOptionPane.showMessageDialog(null, "La division es: " + divisor, "Divisiond de dos enteros", JOptionPane.PLAIN_MESSAGE);
     }
 }
 // + - * /
