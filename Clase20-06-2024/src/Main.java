@@ -21,4 +21,3 @@ public class Main {
         JOptionPane.showMessageDialog(null, "La division es: " + divisor, "Divisiond de dos enteros", JOptionPane.PLAIN_MESSAGE);
     }
 }
-// + - * /
